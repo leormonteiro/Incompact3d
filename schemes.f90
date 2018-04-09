@@ -488,7 +488,7 @@ subroutine second_derivative(alsa1,as1,bs1,&
   !asi  = (12./11.)/d2
   !bsi  = (3./44. )/d2
   !csi  = 0.
-  !NUMERICAL DISSIPATION (see publications for help)
+  !NUMERICAL DISSIPATION (see publications for help) !! I think that would be nice to cite which publications are you talking about, because they are not the usual Incomapct3d ones.
   !      fpi2=(48./7)/(pi*pi)
   if (jLES.eq.1) then !iLES
      xxnu=one/fpi2
