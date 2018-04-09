@@ -47,4 +47,4 @@
 #
 # NUMERICAL DISSIPATION
 #
-63.     # npi2
+63.     # npi2    # hypervisosity is used for any "LES Model" (even 0) configuration!
