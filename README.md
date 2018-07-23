@@ -50,6 +50,7 @@ We estabilished a solid and easy way to run a range of benchmark test cases to v
 |5| Density current              | Lock-exchange    |Necker et al. (2002)
 |6| Boundary Layer               | TBL              |
 
+!!!!##!!!! Seria interessante adicionar o detalhamento destas referências no final do arquivo não está fácil de encontrar só com esses nomes os artigos na inernet (não sei usar o github pra fazer comentários no arquivo sem ser assim, desculpem-me) !!!!##!!!!
 
 ## New compiling FLAGS
 If the flags are not specified in the Makefile, the compile ignore the sections related to each flag. For example, if you do not need IBM in your simulation, do not compile the code with -DIBM, 
