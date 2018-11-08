@@ -337,8 +337,8 @@ subroutine gradp(ta1,tb1,tc1,di1,td2,tf2,ta2,tb2,tc2,di2,&
     if (xstart(3)==1) then
       do j=1,xsize(2)
         do i=1,xsize(1)
-          dpdxz1(i,j)=tb1(i,j,1)/gdt(itr)
-          dpdyz1(i,j)=tc1(i,j,1)/gdt(itr)
+          dpdxz1(i,j)=ta1(i,j,1)/gdt(itr)
+          dpdyz1(i,j)=tb1(i,j,1)/gdt(itr)
         enddo
       enddo
     endif
@@ -347,8 +347,8 @@ subroutine gradp(ta1,tb1,tc1,di1,td2,tf2,ta2,tb2,tc2,di2,&
     if (xend(3)==nz) then
       do j=1,xsize(2)
         do i=1,xsize(1)
-          dpdxzn(i,j)=tb1(i,j,xsize(3))/gdt(itr)
-          dpdyzn(i,j)=tc1(i,j,xsize(3))/gdt(itr)
+          dpdxzn(i,j)=ta1(i,j,xsize(3))/gdt(itr)
+          dpdyzn(i,j)=tb1(i,j,xsize(3))/gdt(itr)
         enddo
       enddo
     endif
